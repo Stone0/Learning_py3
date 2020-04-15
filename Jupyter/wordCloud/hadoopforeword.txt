@@ -1,0 +1,32 @@
+Hadoop got its start in Nutch. A few of us were attempting to build an open source web
+search engine and having trouble managing computations running on even a handful
+of computers. Once Google published its GFS and MapReduce papers, the route became
+clear. They’d devised systems to solve precisely the problems we were having with Nutch.
+So we started, two of us, half-time, to try to re-create these systems as a part of Nutch.
+We managed to get Nutch limping along on 20 machines, but it soon became clear that
+to handle the Web’s massive scale, we’d need to run it on thousands of machines, and
+moreover, that the job was bigger than two half-time developers could handle.
+Around that time, Yahoo! got interested, and quickly put together a team that I joined.
+We split off the distributed computing part of Nutch, naming it Hadoop. With the help
+of Yahoo!, Hadoop soon grew into a technology that could truly scale to the Web.
+In 2006, Tom White started contributing to Hadoop. I already knew Tom through an
+excellent article he’d written about Nutch, so I knew he could present complex ideas in
+clear prose. I soon learned that he could also develop software that was as pleasant to
+read as his prose.
+From the beginning, Tom’s contributions to Hadoop showed his concern for users and
+for the project. Unlike most open source contributors, Tom is not primarily interested
+in tweaking the system to better meet his own needs, but rather in making it easier for
+anyone to use.
+Initially, Tom specialized in making Hadoop run well on Amazon’s EC2 and S3 services.
+Then he moved on to tackle a wide variety of problems, including improving the Map‐
+Reduce APIs, enhancing the website, and devising an object serialization framework.
+In all cases, Tom presented his ideas precisely. In short order, Tom earned the role of
+Hadoop committer and soon thereafter became a member of the Hadoop Project Management
+Committee.
+Tom is now a respected senior member of the Hadoop developer community. Though
+he’s an expert in many technical corners of the project, his specialty is making Hadoop
+easier to use and understand.
+Given this, I was very pleased when I learned that Tom intended to write a book about
+Hadoop. Who could be better qualified? Now you have the opportunity to learn about
+Hadoop from a master—not only of the technology, but also of common sense and
+plain talk.
